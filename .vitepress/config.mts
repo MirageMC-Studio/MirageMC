@@ -6,6 +6,9 @@ export default defineConfig({
   
   title: "MirageMC",
   description: "desc",
+
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
