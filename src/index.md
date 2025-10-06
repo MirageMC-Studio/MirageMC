@@ -13,11 +13,11 @@ hero:
   actions:
     - theme: brand
       text: 进入文档
-      link: /markdown-examples
+      link: /test
     - theme: alt
       text: 加入Q群
       link: /api-examples
-    - theme: alt
+    - theme: sponsor
       text: 成员与贡献
       link: /member
 
@@ -34,3 +34,4 @@ features:
 ---
 
 <Home />
+<confetti />

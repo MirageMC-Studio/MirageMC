@@ -9,7 +9,7 @@ export default defineConfig({
 
   title: "MirageMC",
   titleTemplate: ":title | MirageMC",
-  description: "desc",
+  description: "MirageMC，一个Minecraft互通纯净生存服。",
 
   lang: "zh-CN",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
@@ -39,6 +39,10 @@ export default defineConfig({
     hostname: "https://miragemc-studio.github.io/",
   },
 
+  markdown: {
+    math: true
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
@@ -62,6 +66,7 @@ export default defineConfig({
       {
         text: "Examples",
         items: [
+          { text: "Test", link: "/test" },
           { text: "Markdown Examples", link: "/markdown-examples" },
           { text: "Runtime API Examples", link: "/api-examples" },
         ],

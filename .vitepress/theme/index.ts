@@ -3,11 +3,8 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import type { EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import './style.css'
 
-// 导航栏毛玻璃
-// https://vitepress.yiov.top/style.html#%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%AF%9B%E7%8E%BB%E7%92%83
-import './blur.css'
+import './style/index.css'
 
 // 进度条
 // https://github.com/ZhongxuYang/vitepress-plugin-nprogress
@@ -31,6 +28,10 @@ import { Underline } from "@theojs/lumen";
 import giscusTalk from "vitepress-plugin-comment-with-giscus";
 import { useData, useRoute } from "vitepress";
 
+// 五彩纸屑
+// https://vitepress.yiov.top/components#%E4%BA%94%E5%BD%A9%E7%BA%B8%E5%B1%91
+import confetti from "./components/confetti.vue";
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -49,6 +50,7 @@ export default {
     const { app } = ctx;
     vitepressNprogress(ctx);
     app.component("Home", Underline);
+    app.component("confetti", confetti);
   },
 
   setup() {
