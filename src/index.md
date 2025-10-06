@@ -5,7 +5,7 @@ layout: home
 hero:
   name: MirageMC
   text: 互通纯净生存服
-  tagline: 你见到的远峰不是光影，而是明日的归途
+  tagline: 你见到的远峰不是光影，而是明日的归途...
   image:
     src: /assets/logo.svg
     alt: MirageMC Logo
@@ -32,3 +32,4 @@ features:
     details: 我们使用了知名的登录插件反作弊插件并开放了COI查询指令，拥有每小时为单位的自动备份和区域回档功能
 ---
 
+<Home />

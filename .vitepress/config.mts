@@ -8,6 +8,7 @@ export default defineConfig({
   srcDir: "src",
 
   title: "MirageMC",
+  titleTemplate: ":title | MirageMC",
   description: "desc",
 
   lang: "zh-CN",
@@ -89,6 +90,11 @@ export default defineConfig({
         dateStyle: "full",
         timeStyle: "medium",
       },
+    },
+
+    editLink: {
+      pattern: "https://github.com/MirageMC-Studio/miragemc-studio.github.io/edit/main/src/:path",
+      text: "在 GitHub 上编辑此页面",
     },
   },
 });

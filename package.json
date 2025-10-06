@@ -2,6 +2,7 @@
   "devDependencies": {
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.2",
     "vitepress": "2.0.0-alpha.12",
+    "vitepress-plugin-comment-with-giscus": "^1.1.15",
     "vitepress-plugin-nprogress": "^0.1.1",
     "vue": "^3.5.22"
   },
@@ -9,5 +10,8 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@theojs/lumen": "^6.4.4"
   }
 }
