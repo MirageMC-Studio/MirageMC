@@ -42,6 +42,15 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "文档", link: "/markdown-examples" },
+      {
+        text: "其他",
+        items: [
+          { text: "NorthZero的博客", link: "https://nzdnzd.top/" },
+          { text: "风绘的小窝", link: "https://blog.fhowo.top/" },
+          { text: "简幻欢", link: "https://simpfun.cn/" },
+          { text: "Vitepress", link: "https://vitepress.dev/zh/" },
+        ],
+      },
     ],
 
     sidebar: [
@@ -52,10 +61,25 @@ export default defineConfig({
           { text: "Runtime API Examples", link: "/api-examples" },
         ],
       },
+      {
+        text: 'Level 1',
+        items: [
+          {
+            text: 'Level 2',
+            items: [
+              {
+                text: 'Level 3',
+                items: [
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/MirageMC-Studio" },
     ],
 
     footer: {
@@ -93,7 +117,8 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: "https://github.com/MirageMC-Studio/miragemc-studio.github.io/edit/main/src/:path",
+      pattern:
+        "https://github.com/MirageMC-Studio/miragemc-studio.github.io/edit/main/src/:path",
       text: "在 GitHub 上编辑此页面",
     },
   },

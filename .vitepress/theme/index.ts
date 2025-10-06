@@ -56,7 +56,7 @@ export default {
     const { frontmatter } = useData();
     const route = useRoute();
 
-    // giscus配置
+    // giscus 配置
     giscusTalk(
       {
         repo: "MirageMC-Studio/miragemc-studio.github.io",

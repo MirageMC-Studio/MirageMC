@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+titleTemplate: false
 
 hero:
   name: MirageMC
@@ -17,8 +18,8 @@ hero:
       text: 加入Q群
       link: /api-examples
     - theme: alt
-      text: 贡献者
-      link: /contributors
+      text: 成员与贡献
+      link: /member
 
 features:
   - icon: 🚀
