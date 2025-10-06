@@ -16,6 +16,7 @@ export default defineConfig({
 
   appearance: "dark",
   lastUpdated: true,
+  cleanUrls: true,
 
   vite: {
     optimizeDeps: {
@@ -32,6 +33,10 @@ export default defineConfig({
         "@nolebase/ui",
       ],
     },
+  },
+
+  sitemap: {
+    hostname: "https://miragemc-studio.github.io/",
   },
 
   themeConfig: {
@@ -62,20 +67,19 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Level 1',
+        text: "Level 1",
         items: [
           {
-            text: 'Level 2',
+            text: "Level 2",
             items: [
               {
-                text: 'Level 3',
-                items: [
-                ]
-              }
-            ]
-          }
-        ]
-      }
+                text: "Level 3",
+                items: [],
+              },
+            ],
+          },
+        ],
+      },
     ],
 
     socialLinks: [
