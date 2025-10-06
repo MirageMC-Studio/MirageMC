@@ -3,23 +3,32 @@
 layout: home
 
 hero:
-  name: "MirageMC"
-  text: "desc"
-  tagline: My great project tagline
+  name: MirageMC
+  text: 互通纯净生存服
+  tagline: 你见到的远峰不是光影，而是明日的归途
+  image:
+    src: /assets/logo.svg
+    alt: MirageMC Logo
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 进入文档
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 加入Q群
       link: /api-examples
+    - theme: alt
+      text: 贡献者
+      link: /contributors
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🚀
+    title: 高性能低延迟
+    details: 我们使用了Leaf服务端并且优选了高质量BGP线路
+  - icon: 🌿
+    title: 纯净生存
+    details: 死亡掉落，插件在拓展的基础上平衡原版玩法，您可以在我们的服务器上体验原汁原味的Minecraft
+  - icon: 🔒
+    title: 安全的游戏环境
+    details: 我们使用了知名的登录插件反作弊插件并开放了COI查询指令，拥有每小时为单位的自动备份和区域回档功能
 ---
 
