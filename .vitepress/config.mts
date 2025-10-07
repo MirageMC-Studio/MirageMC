@@ -34,9 +34,6 @@ export default defineConfig({
         "@nolebase/ui",
       ],
     },
-  },
-
-  vite: {
     plugins: [
       vitepressProtectPlugin({
         disableF12: true, // 禁用F12开发者模式
