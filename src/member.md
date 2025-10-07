@@ -35,7 +35,7 @@ const coreMembers = [
     ],
   },
       {
-    avatar: '/assets/member/LUOZIJIN.jpg',
+    avatar: '/assets/member/LUOZIJIN.webp',
     name: 'LUOZIJIN',
     title: '核心成员',
     links: [
