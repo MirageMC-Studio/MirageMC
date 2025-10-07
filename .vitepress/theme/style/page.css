@@ -86,6 +86,19 @@
   --vp-button-brand-active-bg: var(--vp-c-brand-1);
 }
 
+/* Sponsor 按钮样式 */
+:root {
+  --vp-button-sponsor-border: transparent;
+  --vp-button-sponsor-text: var(--vp-c-white);
+  --vp-button-sponsor-bg: #FFD700; /* 粉色背景 */
+  --vp-button-sponsor-hover-border: transparent;
+  --vp-button-sponsor-hover-text: var(--vp-c-white);
+  --vp-button-sponsor-hover-bg: #FFD700; /* 悬停时深粉色 */
+  --vp-button-sponsor-active-border: transparent;
+  --vp-button-sponsor-active-text: var(--vp-c-white);
+  --vp-button-sponsor-active-bg: #FFD700; /* 激活时更深的粉色 */
+}
+
 /**
  * Component: Home
  * -------------------------------------------------------------------------- */
