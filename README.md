@@ -1,3 +1,1 @@
-# MirageMC|文档
-
-## 
+# MirageMC文档
