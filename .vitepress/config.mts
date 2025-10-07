@@ -14,7 +14,7 @@ export default defineConfig({
   lang: "zh-CN",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 
-  appearance: "dark",
+  appearance: true,
   lastUpdated: true,
   cleanUrls: true,
 
@@ -131,6 +131,11 @@ darkModeSwitchLabel: "切换主题",
         dateStyle: "full",
         timeStyle: "medium",
       },
+    },
+
+    notFound: {
+      quote: "如果方向不变，继续前行，你可能会到达所想象的终点✨",
+      linkText: "返回首页",
     },
 
     footer: {
