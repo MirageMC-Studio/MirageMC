@@ -86,6 +86,7 @@ export default defineConfig({
         items: [
           { text: "开始", link: "/start" },
           { text: "常见问题解答", link: "/faq" },
+          { text: "一些有用的网站", link: "/useful-sites" },
         ],
       },
     ],
