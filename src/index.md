@@ -16,7 +16,7 @@ hero:
       link: /test
     - theme: alt
       text: 加入Q群
-      link: /api-examples
+      link: https://qm.qq.com/q/qYmEx1ptG
     - theme: sponsor
       text: 成员与贡献
       link: /member
