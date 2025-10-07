@@ -56,8 +56,6 @@ export default defineConfig({
         items: [
           { text: "NorthZero的博客", link: "https://nzdnzd.top/" },
           { text: "风绘的小窝", link: "https://blog.fhowo.top/" },
-          { text: "简幻欢", link: "https://simpfun.cn/" },
-          { text: "Vitepress", link: "https://vitepress.dev/zh/" },
         ],
       },
     ],
