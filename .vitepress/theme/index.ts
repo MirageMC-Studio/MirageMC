@@ -61,11 +61,11 @@ export default {
     // giscus 配置
     giscusTalk(
       {
-        repo: "MirageMC-Studio/miragemc-studio.github.io",
+        repo: "MirageMC-Studio/MirageMC",
         repoId: "R_kgDOP9VFcQ",
         category: "General",
         categoryId: "DIC_kwDOP9VFcc4CwUtZ",
-        mapping: "url",
+        mapping: "pathname",
         strict: "0",
         reactionsEnabled: "1",
         emitMetadata: "0",
