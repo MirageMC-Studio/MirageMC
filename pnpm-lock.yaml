@@ -17,9 +17,6 @@ importers:
       vitepress-plugin-image-viewer:
         specifier: ^1.1.6
         version: 1.1.6
-      vitepress-protect-plugin:
-        specifier: ^1.0.6
-        version: 1.0.6(vite@7.1.9(less@4.4.1))
     devDependencies:
       '@nolebase/vitepress-plugin-enhanced-readabilities':
         specifier: ^2.18.2
@@ -1035,11 +1032,6 @@ packages:
   vitepress-plugin-nprogress@0.1.1:
     resolution: {integrity: sha512-rpiFJjAUkF2judTaqfk36L+Y8mJxoHWgkUgp2HMBGIfy60HDADGSxgIPQ//bpsSLdtiRq+YPKugYXl+Yr03Pfw==}
 
-  vitepress-protect-plugin@1.0.6:
-    resolution: {integrity: sha512-4gO5NYNrAaD99+/5Qp/QPURTZC2MZ6UMl/gnxfBAIRasxw6r/mdjcluUNLxEFT8WUMX19KgGu4SSLFcKwfeBtQ==}
-    peerDependencies:
-      vite: ^2.0.0 || ^3.0.0 || ^4.0.0
-
   vitepress@2.0.0-alpha.12:
     resolution: {integrity: sha512-yZwCwRRepcpN5QeAhwSnEJxS3I6zJcVixqL1dnm6km4cnriLpQyy2sXQDsE5Ti3pxGPbhU51nTMwI+XC1KNnJg==}
     hasBin: true
@@ -2024,10 +2016,6 @@ snapshots:
   vitepress-plugin-nprogress@0.1.1:
     dependencies:
       nprogress: 0.2.0
-
-  vitepress-protect-plugin@1.0.6(vite@7.1.9(less@4.4.1)):
-    dependencies:
-      vite: 7.1.9(less@4.4.1)
 
   vitepress@2.0.0-alpha.12(less@4.4.1)(markdown-it-mathjax3@4.3.2)(nprogress@0.2.0)(postcss@8.5.6)(typescript@5.9.3):
     dependencies:

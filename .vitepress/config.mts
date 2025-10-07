@@ -1,5 +1,4 @@
 import { defineConfig } from "vitepress";
-import vitepressProtectPlugin from "vitepress-protect-plugin";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -34,13 +33,6 @@ export default defineConfig({
         "@nolebase/ui",
       ],
     },
-    plugins: [
-      vitepressProtectPlugin({
-        disableF12: true, // 禁用F12开发者模式
-        disableCopy: true, // 禁用文本复制
-        disableSelect: true, // 禁用文本选择
-      }),
-    ],
   },
 
   sitemap: {

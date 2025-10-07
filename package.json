@@ -16,7 +16,6 @@
   "dependencies": {
     "@theojs/lumen": "^6.4.4",
     "viewerjs": "^1.11.7",
-    "vitepress-plugin-image-viewer": "^1.1.6",
-    "vitepress-protect-plugin": "^1.0.6"
+    "vitepress-plugin-image-viewer": "^1.1.6"
   }
 }
