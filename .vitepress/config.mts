@@ -85,8 +85,7 @@ export default defineConfig({
         text: "介绍",
         items: [
           { text: "开始", link: "/start" },
-          //{ text: "Markdown Examples", link: "/markdown-examples" },
-          //{ text: "Runtime API Examples", link: "/api-examples" },
+          { text: "常见问题解答", link: "/faq" },
         ],
       },
     ],
