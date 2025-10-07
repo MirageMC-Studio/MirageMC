@@ -11,6 +11,12 @@ importers:
       '@theojs/lumen':
         specifier: ^6.4.4
         version: 6.4.4(vue@3.5.22(typescript@5.9.3))
+      viewerjs:
+        specifier: ^1.11.7
+        version: 1.11.7
+      vitepress-plugin-image-viewer:
+        specifier: ^1.1.6
+        version: 1.1.6
     devDependencies:
       '@nolebase/vitepress-plugin-enhanced-readabilities':
         specifier: ^2.18.2
@@ -988,6 +994,9 @@ packages:
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
 
+  viewerjs@1.11.7:
+    resolution: {integrity: sha512-0JuVqOmL5v1jmEAlG5EBDR3XquxY8DWFQbFMprOXgaBB0F7Q/X9xWdEaQc59D8xzwkdUgXEMSSknTpriq95igg==}
+
   vite@7.1.9:
     resolution: {integrity: sha512-4nVGliEpxmhCL8DslSAUdxlB6+SMrhB0a1v5ijlh1xB1nEPuy1mxaHxysVucLHuWryAxLWg6a5ei+U4TLn/rFg==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -1030,6 +1039,9 @@ packages:
 
   vitepress-plugin-comment-with-giscus@1.1.15:
     resolution: {integrity: sha512-1DJjgN+7SYvn5ZkjuSXPmz7nlqfcrh4qCGGviiZghA2ELXnaO2m9WY7m+RisPSaqCn90xqe0JbO2T4NMq8iUBg==}
+
+  vitepress-plugin-image-viewer@1.1.6:
+    resolution: {integrity: sha512-ZfYy1s/bXju6vGVsE/5gPXT449+KaXZ6ZIPAvcmPM07VmC7Bv57bCvFar2II7C2EjexxfPQsxUh70vSBbe14kQ==}
 
   vitepress-plugin-nprogress@0.1.1:
     resolution: {integrity: sha512-rpiFJjAUkF2judTaqfk36L+Y8mJxoHWgkUgp2HMBGIfy60HDADGSxgIPQ//bpsSLdtiRq+YPKugYXl+Yr03Pfw==}
@@ -1996,6 +2008,8 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
+  viewerjs@1.11.7: {}
+
   vite@7.1.9(less@4.4.1):
     dependencies:
       esbuild: 0.25.10
@@ -2013,6 +2027,10 @@ snapshots:
       '@giscus/vue': 2.4.0(vue@3.5.22(typescript@5.9.3))
     transitivePeerDependencies:
       - vue
+
+  vitepress-plugin-image-viewer@1.1.6:
+    dependencies:
+      viewerjs: 1.11.7
 
   vitepress-plugin-nprogress@0.1.1:
     dependencies:

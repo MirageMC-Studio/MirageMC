@@ -5,6 +5,9 @@ import type { EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import Linkcard from "./components/Linkcard.vue"
 import ArticleMetadata from "./components/ArticleMetadata.vue"
+import 'viewerjs/dist/viewer.min.css';
+import imageViewer from 'vitepress-plugin-image-viewer';
+import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue';//图片预览插件https://www.shakecode.com/zh/blog/other/vitepress-plugin-image-viewer
 
 import './style/index.css'
 
@@ -53,14 +56,16 @@ export default {
     vitepressNprogress(ctx);
     app.component("Home", Underline);
     app.component("confetti", confetti);
-    app.component('Linkcard' , Linkcard)
-    app.component('ArticleMetadata' , ArticleMetadata)
+    app.component('Linkcard' , Linkcard);
+    app.component('ArticleMetadata' , ArticleMetadata);
+    ctx.app.component('vImageViewer', vImageViewer);
   },
 
   setup() {
     // Get frontmatter and route
     const { frontmatter } = useData();
     const route = useRoute();
+    imageViewer(route);
 
     // giscus 配置
     giscusTalk(
