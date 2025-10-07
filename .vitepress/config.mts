@@ -36,7 +36,7 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: "https://miragemc-studio.github.io/",
+    hostname: "https://miragemc.top",
   },
 
   markdown: {
@@ -86,7 +86,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/MirageMC-Studio" },
+      { icon: "github", link: "https://github.com/MirageMC-Studio/MirageMC" },
     ],
 
     search: {
@@ -140,7 +140,7 @@ darkModeSwitchLabel: "切换主题",
 
     editLink: {
       pattern:
-        "https://github.com/MirageMC-Studio/miragemc-studio.github.io/edit/main/src/:path",
+        "https://github.com/MirageMC-Studio/MirageMC/edit/main/src/:path",
       text: "在 GitHub 上编辑此页面",
     },
   },
