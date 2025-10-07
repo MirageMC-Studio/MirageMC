@@ -1,61 +1,76 @@
 ---
-title: 成员与贡献
-description: MirageMC的成员与他们的贡献
 layout: page
-sidebar: false
 ---
-
 <script setup>
 import {
   VPTeamPage,
   VPTeamPageTitle,
-  VPTeamMembers
+  VPTeamMembers,
+  VPTeamPageSection,
 } from 'vitepress/theme'
 
-const members = [
+const coreMembers = [
   {
-    avatar: 'https://github.com/fhowotop.png',
-    name: '风绘',
-    title: '服主',
+    avatar: 'https://www.github.com/fhowotop.png',
+    name: 'FHOWO',
+    title: '开发者',
     links: [
-      { icon: 'github', link: 'https://github.com/fhowotop' },
-    ]
+      { icon: 'github', link: 'https://github.com/fhowotop' }
+    ],
   },
   {
-    avatar: 'https://github.com/NorthZeroD.png',
-    name: 'NorthZero',
+    avatar: 'https://www.github.com/NorthZeroD.png',
+    name: 'CNZD',
     title: '文档制作',
     links: [
       { icon: 'github', link: 'https://github.com/NorthZeroD' },
-    ]
+    ],
   },
-  {
-    avatar: 'https://github.com/ShiNiYuWings.png',
+    {
+    avatar: 'https://www.github.com/ShiNiYuWings.png',
     name: 'ShiNiYuWings',
-    title: '服务器活跃成员',
+    title: '宣传摄影',
     links: [
       { icon: 'github', link: 'https://github.com/ShiNiYuWings' },
-    ]
+    ],
   },
-  {
+      {
     avatar: '/assets/member/LUOZIJIN.jpg',
     name: 'LUOZIJIN',
-    title: '服务器活跃成员',
+    title: '核心成员',
     links: [
-      // { icon: 'github', link: 'https://github.com/ShiNiYuWings' },
-    ]
+      //{ icon: 'github', link: 'https://github.com/LUOZIJIN' },
+    ],
+  },
+]
+
+const partners = [
+  {
+    avatar: 'https://www.github.com/fhowotop.png',
+    name: '贡献者',
+    title: '无题',
+    links: [
+      { icon: 'github', link: 'https://github.com/fhowotop' },
+    ],
   },
 ]
 </script>
 
 <VPTeamPage>
   <VPTeamPageTitle>
-    <template #title>
-      MirageMC
-    </template>
+    <template #title>团队</template>
     <template #lead>
-      成员与贡献
+    MirageMC的开发运营离不开每位团队成员夜以继日的辛勤付出
     </template>
   </VPTeamPageTitle>
-  <VPTeamMembers :members />
+  <VPTeamMembers size="small" :members="coreMembers" />
+  <VPTeamPageSection>
+    <template #title>贡献者</template>
+    <template #lead>
+    贡献者是那些做出贡献但不在核心团队中的成员，感谢您做出的贡献！
+    </template>
+    <template #members>
+      <VPTeamMembers size="small" :members="partners" />
+    </template>
+  </VPTeamPageSection>
 </VPTeamPage>
