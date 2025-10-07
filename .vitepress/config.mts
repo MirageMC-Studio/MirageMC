@@ -1,5 +1,5 @@
 import { defineConfig } from "vitepress";
-import vitepressProtectPlugin from "vitepress-protect-plugin"
+import vitepressProtectPlugin from "vitepress-protect-plugin";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -51,16 +51,16 @@ export default defineConfig({
     math: true,
     image: {
       // 开启图片懒加载
-      lazyLoading: true
+      lazyLoading: true,
     },
     // 组件插入h1标题下
     config: (md) => {
       md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
-          let htmlResult = slf.renderToken(tokens, idx, options);
-          if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`; 
-          return htmlResult;
-      }
-    }
+        let htmlResult = slf.renderToken(tokens, idx, options);
+        if (tokens[idx].tag === "h1") htmlResult += `<ArticleMetadata />`;
+        return htmlResult;
+      };
+    },
   },
 
   themeConfig: {
@@ -116,7 +116,7 @@ export default defineConfig({
       },
     },
 
-darkModeSwitchLabel: "切换主题",
+    darkModeSwitchLabel: "切换主题",
     // 文章翻页
     docFooter: {
       prev: "上一页", //Next page
@@ -130,7 +130,7 @@ darkModeSwitchLabel: "切换主题",
 
     // 菜单  Menu
     sidebarMenuLabel: "菜单",
-    
+
     lastUpdated: {
       text: "上次更新于",
       formatOptions: {
