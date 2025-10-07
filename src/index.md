@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 进入文档
-      link: /preface
+      link: /start
     - theme: alt
       text: 加入Q群
       link: https://qm.qq.com/q/qYmEx1ptG

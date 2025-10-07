@@ -1,4 +1,4 @@
-# 前言
+# 感谢访问MirageMC Docs
 
 MirageMC是一个基于Minecraft Java Leaf服务端的纯净生存服，在此基础上我们使用了Geyser让基岩版客户端能够加入Java服务器，同时我们也添加了一些不破坏原版玩法的娱乐和实用性插件，如Gsit、ImageFrame、TPA、ToolStats等，在保持原版纯净的同时，也为玩家提供了一些额外的功能和便利。
  
