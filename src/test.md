@@ -21,3 +21,6 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 😶‍🌫️
 :face_in_clouds:
+
+🫨
+:shaking_face:
