@@ -4,6 +4,7 @@ import type { Theme } from 'vitepress'
 import type { EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import Linkcard from "./components/Linkcard.vue"
+import ArticleMetadata from "./components/ArticleMetadata.vue"
 
 import './style/index.css'
 
@@ -53,6 +54,7 @@ export default {
     app.component("Home", Underline);
     app.component("confetti", confetti);
     app.component('Linkcard' , Linkcard)
+    app.component('ArticleMetadata' , ArticleMetadata)
   },
 
   setup() {
