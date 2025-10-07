@@ -51,7 +51,11 @@ export default defineConfig({
   },
 
   markdown: {
-    math: true
+    math: true,
+    image: {
+      // 开启图片懒加载
+      lazyLoading: true
+    },
   },
 
   themeConfig: {
