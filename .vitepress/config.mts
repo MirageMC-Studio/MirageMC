@@ -89,11 +89,6 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/MirageMC-Studio" },
     ],
 
-    footer: {
-      message: "Released under the CC BY-NC-SA 4.0 License.",
-      copyright: "Copyright © 2025-present MirageMC-Studio",
-    },
-
     search: {
       provider: "local",
       options: {
@@ -115,12 +110,32 @@ export default defineConfig({
       },
     },
 
+darkModeSwitchLabel: "切换主题",
+    // 文章翻页
+    docFooter: {
+      prev: "上一篇", //Next page
+      next: "下一篇", //Previous page
+    },
+    //当前页面 On this page
+    outlineTitle: "页面内容",
+
+    // 返回顶部 Return to top
+    returnToTopLabel: "返回顶部",
+
+    // 菜单  Menu
+    sidebarMenuLabel: "菜单",
+    
     lastUpdated: {
       text: "上次更新于",
       formatOptions: {
         dateStyle: "full",
         timeStyle: "medium",
       },
+    },
+
+    footer: {
+      message: "Released under the CC BY-NC-SA 4.0 License.",
+      copyright: "Copyright © 2025-present MirageMC-Studio",
     },
 
     editLink: {
