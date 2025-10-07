@@ -3,6 +3,7 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import type { EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import Linkcard from "./components/Linkcard.vue"
 
 import './style/index.css'
 
@@ -51,6 +52,7 @@ export default {
     vitepressNprogress(ctx);
     app.component("Home", Underline);
     app.component("confetti", confetti);
+    app.component('Linkcard' , Linkcard)
   },
 
   setup() {

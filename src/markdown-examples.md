@@ -83,3 +83,4 @@ This is a details block.
 ## More
 
 Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+<Linkcard url="https://miragemc.top/" title="MirageMC" description="你见到的远峰不是光影，而是明日的归途..." logo="/assets/logo.svg"/>
