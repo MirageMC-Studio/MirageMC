@@ -62,7 +62,7 @@ export default defineConfig({
 
     nav: [
       { text: "首页", link: "/" },
-      { text: "文档", link: "/markdown-examples" },
+      { text: "文档", link: "/start" },
       {
         text: "其他",
         items: [
@@ -74,25 +74,11 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Examples",
+        text: "介绍",
         items: [
-          { text: "Test", link: "/test" },
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-      {
-        text: "Level 1",
-        items: [
-          {
-            text: "Level 2",
-            items: [
-              {
-                text: "Level 3",
-                items: [],
-              },
-            ],
-          },
+          { text: "前言", link: "/start" },
+          //{ text: "Markdown Examples", link: "/markdown-examples" },
+          //{ text: "Runtime API Examples", link: "/api-examples" },
         ],
       },
     ],
