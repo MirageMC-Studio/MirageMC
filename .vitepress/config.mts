@@ -76,7 +76,7 @@ export default defineConfig({
       {
         text: "介绍",
         items: [
-          { text: "前言", link: "/start" },
+          { text: "前言", link: "/preface" },
           //{ text: "Markdown Examples", link: "/markdown-examples" },
           //{ text: "Runtime API Examples", link: "/api-examples" },
         ],
