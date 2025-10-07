@@ -113,8 +113,8 @@ export default defineConfig({
 darkModeSwitchLabel: "切换主题",
     // 文章翻页
     docFooter: {
-      prev: "上一篇", //Next page
-      next: "下一篇", //Previous page
+      prev: "上一页", //Next page
+      next: "下一页", //Previous page
     },
     //当前页面 On this page
     outlineTitle: "页面内容",
