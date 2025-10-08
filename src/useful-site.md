@@ -1,4 +1,4 @@
-# 一些有用的网站
+# 实用网站🌐
 
 <Linkcard url="https://zh.minecraft.wiki/" title="Minecraft Wiki" description="查询一切和 Minecraft 有关的信息！" logo="https://zh.minecraft.wiki/images/Wiki.png?c6c25&format=original"/>
 

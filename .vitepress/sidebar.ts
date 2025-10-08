@@ -5,12 +5,13 @@ export const sidebar: Partial<DefaultTheme.Config> = {
     {
       items: [
         {
-          text: "MirageMC",
+          text: "开始🛫",
+          link: "/start",
           items: [
-            { text: "开始", link: "/start" },
-            { text: "关于", link: "/about" },
-            { text: "常见问题解答", link: "/faq" },
-            { text: "实用网站", link: "/useful-sites" },
+            { text: "简介📃", link: "/intro" },
+            { text: "插件🧩", link: "/plugin" },
+            { text: "常见问题❓", link: "/faq" },
+            { text: "实用网站🌐", link: "/useful-site" },
           ],
         },
       ],
