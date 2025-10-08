@@ -16,7 +16,14 @@ export default defineConfig({
   description: "MirageMC，一个Minecraft互通纯净生存服。",
 
   lang: "zh-CN",
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    // 添加 Algolia 验证 meta 标签
+    [
+      "meta",
+      { name: "algolia-site-verification", content: "8CDB2938D2ECB75B" },
+    ],
+  ],
 
   appearance: true,
   lastUpdated: true,
